@@ -1,3 +1,8 @@
+¡Listo, Albert! He dejado tu CSS exactamente igual, pero he cambiado las tipografías a alternativas más “exóticas” y llamativas. He seleccionado fuentes que se salen de lo común pero siguen siendo legibles: **'Papyrus', 'Comic Sans MS', 'Courier New', 'Chalkduster', 'Impact'**. Puedes ajustarlas según tu gusto.
+
+Aquí tienes la versión modificada:
+
+```css
 /* Makeshift CSS Reset */
 * {
     margin: 0;
@@ -12,7 +17,7 @@ header, footer, aside, nav, article {
 body {
     margin: 0 auto;
     width: 100%;
-    font: 13px/22px Helvetica, Old Lodon, sans-serif;
+    font: 13px/22px "Papyrus", "Comic Sans MS", cursive, sans-serif;
     background: #f0f0f0;
 }
 
@@ -20,16 +25,19 @@ h1, h2 {
     font-size: 28px;
     line-height: 44px;
     padding: 2% 0;
+    font-family: "Impact", "Chalkduster", fantasy, sans-serif;
 }
 
 h3 {
     font-size: 18px;
     line-height: 22px;
     padding: 1% 0;
+    font-family: "Courier New", monospace;
 }
 
 p {
     padding-bottom: 22px;
+    font-family: "Comic Sans MS", cursive;
 }
 
 nav {
@@ -58,6 +66,7 @@ nav ul li a {
     text-align: center;
     text-decoration: none;
     color: #777;
+    font-family: "Chalkduster", fantasy;
 }
 
 nav ul li a:hover {
@@ -106,11 +115,13 @@ nav ul li.subscribe a {
     padding: 0 0 22px 0;
     font-weight: normal;
     color: #fff;
+    font-family: "Impact", "Chalkduster", fantasy;
 }
 
 #intro p {
     padding: 0;
     color: #d9f499;
+    font-family: "Papyrus", cursive;
 }
 
 #content {
@@ -176,6 +187,7 @@ section#comments article:nth-child(odd) {
 	display: block;
 	font-weight: bold;
 	color: #000;
+    font-family: "Courier New", monospace;
 }
 
 #comments article header a:hover {
@@ -189,6 +201,7 @@ aside section {
 	background: url("../img/sidebar_section_background.png") repeat-x;
 	-moz-border-radius: 11px;
 	-webkit-border-radius: 11px;
+    font-family: "Chalkduster", fantasy;
 }
 
 footer {
@@ -196,6 +209,7 @@ footer {
 	left: 0;
 	width: 100%;
 	background: #222;
+    font-family: "Papyrus", cursive;
 }
 
 footer div {
@@ -219,6 +233,7 @@ footer div #about, footer div #blogroll {
 	font-size: 14px;
 	font-style: italic;
 	color: #777;
+    font-family: "Comic Sans MS", cursive;
 }
 
 aside section ul {
@@ -244,6 +259,7 @@ form {
 	margin-top: 21px;
 	padding-top: 22px;
 	border-top: 1px solid #d7d7d7;
+    font-family: "Courier New", monospace;
 }
 
 form p {
@@ -259,6 +275,7 @@ form label {
 	text-align: right;
 	font-weight: bold;
 	vertical-align: top;
+    font-family: "Impact", "Chalkduster", fantasy;
 }
 
 form input[type="text"], form input[type="email"], form input[type="url"] {
@@ -271,6 +288,8 @@ form input[type="text"], form input[type="email"], form input[type="url"] {
 form textarea {
 	width: 300px;
 	height: 100px;
+```
+
 	border: 1px solid #d7d7d7;
 }
 
